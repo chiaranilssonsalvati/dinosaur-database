@@ -1,0 +1,156 @@
+char_1,2,,,,omnivorous
+char_2,3,,,,herbivorous
+char_3,5.5,,,,herbivorous
+char_4,1,200,small razor-sharp backward-curving teeth,on 2 legs,carnivorous
+char_5,1.8,,,,carnivorous
+char_6,2,,,,herbivorous
+char_7,2.15,,,,carnivorous
+char_8,6.4,,,,carnivorous
+char_9,22,,,,herbivorous
+char_10,6,,,,herbivorous
+char_11,18,,,,herbivorous
+char_12,7,,,,herbivorous
+char_13,3.5,100,horny beak,on 2 legs,omnivorous
+char_14,8.6,,,,carnivorous
+char_15,40,,,,herbivorous
+char_16,1,,,,carnivorous
+char_17,24,,,,herbivorous
+char_18,8,,,,herbivorous
+char_19,9,,,,herbivorous
+char_20,3,,,,carnivorous
+char_21,6.2,,,,carnivorous
+char_22,15,,,,herbivorous
+char_23,4.1,,,,carnivorous
+char_24,2.5,,,,herbivorous
+char_25,10,2000,sharp finely serrated teeth,on 2 legs,carnivorous
+char_26,0.9,,,,herbivorous
+char_27,5,,,,carnivorous
+char_28,13,,,,carnivorous
+char_29,3,,,,omnivorous
+char_30,4,,,,herbivorous
+char_31,1.2,,,,herbivorous
+char_32,5,,,,herbivorous
+char_33,6,200,horny beak; no teeth,on 2 legs,omnivorous
+char_34,12,,,,herbivorous
+char_35,0.25,,,,carnivorous
+char_36,1,,,,herbivorous
+char_37,9,,,,carnivorous
+char_38,1.8,400,shearing and grinding teeth with a horny beak at the front,on 4 legs,herbivorous
+char_39,1.8,,,,omnivorous
+char_40,4,,,,carnivorous
+char_41,1.5,,,,carnivorous
+char_42,6,1000,lots of sharp pointed teeth,on 2 legs,carnivorous
+char_43,4.7,,,,omnivorous
+char_44,10,,,,carnivorous
+char_45,20,,,,herbivorous
+char_46,10,,,,herbivorous
+char_47,1.1,,,,herbivorous
+char_48,1.5,,,,herbivorous
+char_49,2,40,curved flattened teeth with coarse serrations,on 2 legs,carnivorous
+char_50,0.9,,,,carnivorous
+char_51,12,,,,carnivorous
+char_52,8,3000,flat-curved and serrated teeth,on 2 legs,herbivorous
+char_53,10,,,,omnivorous
+char_54,3.4,,,,omnivorous
+char_55,9,2500,horny beak and chewing teeth,on 2 or 4 legs,herbivorous
+char_56,2.37,,,,carnivorous
+char_57,30,,,,herbivorous
+char_58,1,10,small grinding teeth,on 2 legs,herbivorous
+char_59,1.6,,,,omnivorous
+char_60,2,50,beak,on 2 or 4 legs,herbivorous
+char_61,12,,,,omnivorous
+char_62,7,900,beak and chopping teeth,on 4 legs,herbivorous
+char_63,4.6,,,,herbivorous
+char_64,2.4,,,,herbivorous
+char_65,17,,,,herbivorous
+char_66,9,5500,horny beak and shearing teeth,on 4 legs,herbivorous
+char_67,13,,,,herbivorous
+char_68,23,,,,herbivorous
+char_69,6,1000,horny beak,on 4 legs,herbivorous
+char_70,6.5,,,,carnivorous
+char_71,15,,,,carnivorous
+char_72,12,7000,60 saw-edged bone-crushing pointed teeth,on 2 legs,carnivorous
+char_73,1.3,,,,carnivorous
+char_74,4.2,,,,carnivorous
+char_75,12,2000,dagger-like with serrated edges,on 2 legs,carnivorous
+char_76,6.5,,,,herbivorous
+char_77,4.5,,,,herbivorous
+char_78,1.8,,,,herbivorous
+char_79,10,5000,chewing cheek teeth and horny beak,on 2 or 4 legs,herbivorous
+char_80,4,70,rounded front teeth flat back teeth,on 2 or 4 legs,omnivorous
+char_81,8.1,,,,carnivorous
+char_82,4.7,,,,herbivorous
+char_83,5.3,,,,omnivorous
+char_84,2,50,horny beak;  grinding cheek teeth,on 2 legs,herbivorous
+char_85,2.5,,,,carnivorous
+char_86,6,,,,carnivorous
+char_87,7.5,,,,herbivorous
+char_88,28,,,,herbivorous
+char_89,1,,,,unknown
+char_90,5.7,,,,carnivorous
+char_91,0.6,,,,omnivorous
+char_92,9,,,,omnivorous
+char_93,5,1000,beak and grinding teeth,on 2 or 4 legs,herbivorous
+char_94,0.8,2,small sharp pointed,on 2 legs,unknown
+char_95,3,75,backward-curving,on 2 legs,carnivorous
+char_96,6.6,,,,herbivorous
+char_97,35,70000,teeth for grinding and chewing,on 4 legs,herbivorous
+char_98,21,,,,herbivorous
+char_99,1.3,,,,herbivorous
+char_100,25,,,,herbivorous
+char_101,0.6,,,,herbivorous
+char_102,2,,,,carnivorous
+char_103,7.6,,,,carnivorous
+char_104,7,4000,grinding teeth with a horny beak at the front,on 2 or 4 legs,herbivorous
+char_105,7,1500,small snipping teeth,on 4 legs,herbivorous
+char_106,3.5,,,,carnivorous
+char_107,8,500,many sharp and pointed teeth,on 2 legs,carnivorous
+char_108,7,,,,carnivorous
+char_109,5.15,,,,herbivorous/omnivorous
+char_110,4,,,,omnivorous
+char_111,0.45,,,,carnivorous
+char_112,7,7000,grinding teeth with a horny beak at the front,on 4 legs,herbivorous
+char_113,6.2,,,,herbivorous
+char_114,0.8,,,,carnivorous
+char_115,8.2,,,,carnivorous
+char_116,5,1000,,,herbivorous
+char_117,10,,,,unknown
+char_118,11,,,,carnivorous
+char_119,6.8,,,,herbivorous
+char_120,6,450,lots of sharp and curved teeth,on 2 legs,carnivorous
+char_121,2.5,,,,omnivorous
+char_122,9,1500,saw-edged flesh-slicing teeth,on 2 legs,carnivorous
+char_123,1.4,,,,herbivorous
+char_124,0.5,,,,herbivorous
+char_125,0.8,,,,herbivorous
+char_126,13,3400,horny beak and 1000 grinding cheek teeth,on 2 or 4 legs,herbivorous
+char_127,12,9000,teeth for grinding and chewing,,herbivorous
+char_128,18,4000,flat and blade-like,on 2 legs,carnivorous
+char_129,2.1,,,,herbivorous
+char_130,8.5,,,,herbivorous
+char_131,14,,,,herbivorous
+char_132,7,,,,omnivorous
+char_133,3,27,small and sharp,on 2 legs,carnivorous
+char_134,7.6,,,,herbivorous
+char_135,5,2500,horny beak,on 4 legs,herbivorous
+char_136,2.3,,,,herbivorous
+char_137,0.65,3.6,sharp,on 2 legs,carnivorous
+char_138,23,20000,chisel-like sharp snipping teeth,on 4 legs,herbivorous
+char_139,4,300,horny beak; no teeth,on 2 legs,omnivorous
+char_140,1.8,15,small razor-sharp backward-curving teeth,on 2 legs,carnivorous
+char_141,11,3500,beak and toothed jaws,on 2 or 4 legs,herbivorous
+char_142,12.5,8000,long blade-like and serrated - ideal for slicing,on 2 legs,carnivorous
+char_143,1,2.5,sharp teeth that pointed outwards at the front of the upper jaw only,on 2 legs,omnivorous
+char_144,2.4,,,,carnivorous
+char_145,3.5,,,,herbivorous
+char_146,2,30,beak; no teeth,on 2 legs,omnivorous
+char_147,45,,,,herbivorous
+char_148,7,2000,horny beak and chewing teeth,on 4 legs,herbivorous
+char_149,0.08,,,,carnivorous
+char_150,1.8,15,lots of sharp pointed teeth,on 2 legs,carnivorous
+char_151,0.5,0.5,many small conical (cone-like) teeth in the upper jaw,on 2 legs and by flying,carnivorous
+char_152,2.1,,,,omnivorous
+char_153,1.5,,,,omnivorous
+char_154,2.3,50,horny beak; broad chisel-like teeth,on 2 legs,herbivorous
+char_155,26,25000,rows of teeth like a comb,on 4 legs,herbivorous
+char_156,7.4,,,,carnivorous
