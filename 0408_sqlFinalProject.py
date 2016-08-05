@@ -11,7 +11,7 @@ c = conn.cursor()
 
 def choice1():
 	x = list(c.execute("SELECT Sci_Info.Place_Found, Chr.Diet, ID_Info.Name FROM Sci_Info JOIN ID_Info ON Sci_Info.Sci_ID=ID_Info.Sci_ID JOIN Chr ON ID_Info.Char_ID=Chr.Char_ID"))
-	y = x[random.randint(0, len(x))]
+	y = x[random.randint(0, len(x)-1)]
 	rowASCII = []
 	for item in y:
 		if type(item) == type(u'hi'):
@@ -23,7 +23,7 @@ def choice1():
 
 def choice2():
 	x = list(c.execute("SELECT Sci_Info.Period, Chr.How_It_Moved, ID_Info.Name FROM Sci_Info JOIN ID_Info ON Sci_Info.Sci_ID=ID_Info.Sci_ID JOIN Chr ON ID_Info.Char_ID=Chr.Char_ID"))
-	y = x[random.randint(0, len(x))]
+	y = x[random.randint(0, len(x)-1)]
 	rowASCII = []
 	for item in y:
 		if type(item) == type(u'hi'):
@@ -35,9 +35,29 @@ def choice2():
 
 
 def choice3():
-	print('hi')
+	x = list(c.execute("SELECT Diet, Avg(Weight_kg) FROM Chr GROUP BY Diet"))
+	herbivorous = x[1]
+	carnivorous = x[0]
+	omnivorous = x[3]
+	# for item in herbivorous, carnivorous, omnivorous:
+	# 	if type(item) == type(u'hi'):
+	# 		rowASCII.append(item.encode('ascii'))
+	# 	else:
+	# 		rowASCII.append(item)
+	print("With an average weight of "+str(herbivorous[1])+" kgs, "+herbivorous[0].encode('ascii')+" dinosaurs were the heaviest, followed by "+carnivorous[0].encode('ascii')+" dinosaurs, at "+str(carnivorous[1])+" kgs on average, and "+omnivorous[0].encode('ascii')+" dinosaurs at an average of "+str(omnivorous[1])+" kgs.")
 	menu()
 
+def choice4():
+	x = list(c.execute("SELECT * FROM Name_Info"))
+	y = x[random.randint(0, len(x)-1)]
+	rowASCII = []
+	for item in y:
+		if type(item) == type(u'hi'):
+			rowASCII.append(item.encode('ascii'))
+		else:
+			rowASCII.append(item)
+	print("The dinosaur "+rowASCII[0]+", whose name is pronounced "+rowASCII[1]+", means "+rowASCII[2]+".  The "+rowASCII[0]+" was named by "+rowASCII[3]+" in the year "+rowASCII[4]+".")
+	menu()
 
 
 def queries(choice):
@@ -47,13 +67,15 @@ def queries(choice):
 		choice2()
 	elif choice == '3':
 		choice3()
+	elif choice == '4':
+		choice4()
 	elif choice != 'quit':
 		errormessage()
 	else:
 		menu()
 
 def errormessage():
-	print("Error- please choose 1, 2, 3, or quit. ")
+	print("Error- please choose 1, 2, 3, 4, or quit. ")
 	menu()
 
 
@@ -68,11 +90,14 @@ def menu():
 	print('''You can choose to:
 	1. Learn about how a dinosaur's location relates to its diet.
 	2. Learn about how the period when a dinosaur lived related to how it moved.
-	3. tbd
+	3. Learn about how their diets related to their weights.
+	4. Learn about the etymology of a dinosaur's name.
 	''')
-	choice = raw_input("Choose 1, 2, or 3, or 'quit' to quit. ").lower()
+	choice = raw_input("Choose 1, 2, 3, or 4, or 'quit' to quit. ").lower()
 	if choice != 'quit':
 		queries(choice)
+	else:
+		print("Thank you for visiting the Dino Den.  Goodbye!")
 
 
 
