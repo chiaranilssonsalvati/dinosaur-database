@@ -7,8 +7,6 @@ conn = sqlite3.connect('Dino_Data/Dino.db')
 c = conn.cursor()
 
 
-
-
 def choice1():
 	x = list(c.execute("SELECT Sci_Info.Place_Found, Chr.Diet, ID_Info.Name FROM Sci_Info JOIN ID_Info ON Sci_Info.Sci_ID=ID_Info.Sci_ID JOIN Chr ON ID_Info.Char_ID=Chr.Char_ID"))
 	y = x[random.randint(0, len(x)-1)]
